@@ -65,7 +65,6 @@ function generatePassword() {
 
 
   for (var i = 0; i < totalChar; i++) {
-    //var random = Math.floor(Math.random() * passwArray.length);
     var posibleCharacter = randomGenerate(passwArray);
 
     resultPassw.push(posibleCharacter);
@@ -91,3 +90,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
